@@ -84,10 +84,10 @@
     </mj-section>
 
     <!-- Tasty Treats Intro -->
-    <mj-section background-color="#f6f0ea">
+    <mj-section background-color="#f6f0ea" padding-bottom="40px">
       <mj-column>
         <mj-text
-          padding-top="40px"
+          padding-top="80px"
           padding-left="80px"
           font-size="25px"
           color="#101010"
@@ -98,214 +98,140 @@
     </mj-section>
 
     <!-- Tasty Grid -->
-    <mj-section
-      background-color="#f6f0ea"
-      padding-left="80px"
-      padding-right="80px"
-    >
-      <mj-column width="200px" padding-right="20px">
-        <mj-image
-          src="images/chi.jpg"
-          alt="Golden Dragon No. 2 Photo"
-          width="200px"
-        />
-        <mj-raw>
-          <div
-            style="
-              position: relative;
-              top: 40px;
-              left: 170px;
-              width: 30px;
-              border-radius: 50%;
-              background-color: #d3d3d3;
-              color: #000000;
-              text-align: center;
-              line-height: 30px;
-              font-size: 12px;
-            "
+    <mj-section background-color="#f6f0ea">
+      <mj-group background-color="#ffffff" width="450px">
+        <mj-column width="50%" border="5px solid #f6f0ea">
+          <mj-image
+            src="images/chi.jpg"
+            alt="Golden Dragon No. 2 Photo"
+            width="220px"
+          />
+          <mj-text
+            font-size="16px"
+            padding-top="15px"
+            padding-left="20px"
+            padding-bottom="10px"
           >
-            4.6
-          </div>
-        </mj-raw>
-        <mj-text
-          padding-top="15px"
-          padding-left="20px"
-          font-size="16px"
-          padding-bottom="10px"
-          >Golden Dragon No. 2</mj-text
-        >
-        <mj-text
-          font-size="14px"
-          color="#d3d3d3"
-          padding-bottom="15px"
-          padding-left="20px"
-        >
-          $ &bull; Chinese &bull; Asian Fusion
-        </mj-text>
-        <mj-button
-          background-color="#02c167"
-          font-size="14px"
-          font-weight="light"
-          color="#000000"
-          width="100%"
-          href="#"
-        >
-          Order Now &rarr;
-        </mj-button>
-      </mj-column>
-      <mj-column background-color="#ffffff" width="200px">
-        <mj-image src="images/mc.jpg" alt="McDonalds Photo" width="200px" />
-        <!-- <mj-raw>
-          <div
-            style="
-              position: relative;
-              top: 40px;
-              left: 170px;
-              width: 30px;
-              border-radius: 50%;
-              background-color: #d3d3d3;
-              color: #000000;
-              text-align: center;
-              line-height: 30px;
-              font-size: 12px;
-              padding: 0px;
-              margin: 0px;
-            "
+            Golden Dragon No. 2
+          </mj-text>
+          <mj-text
+            font-size="14px"
+            color="#d3d3d3"
+            padding-bottom="15px"
+            padding-left="20px"
           >
-            4.4
-          </div>
-        </mj-raw> -->
-        <mj-text
-          padding-top="15px"
-          padding-left="20px"
-          font-size="16px"
-          padding-bottom="10px"
-          >McDonald's&reg;
-        </mj-text>
-        <mj-text
-          font-size="14px"
-          color="#d3d3d3"
-          padding-bottom="15px"
-          padding-left="20px"
-        >
-          $ &bull; American &bull; Fast Food
-        </mj-text>
-        <mj-button
-          background-color="#02c167"
-          font-size="14px"
-          font-weight="light"
-          color="#000000"
-          width="100%"
-          href="#"
-        >
-          Order Now &rarr;
-        </mj-button>
-      </mj-column>
+            $ &bull; Chinese &bull; Asian Fusion
+          </mj-text>
+          <mj-button
+            background-color="#02c167"
+            font-size="14px"
+            font-weight="light"
+            color="#000000"
+            width="100%"
+            href="#"
+          >
+            Order Now &rarr;
+          </mj-button>
+        </mj-column>
+
+        <mj-column width="50%" border="5px solid #f6f0ea">
+          <mj-image src="images/mc.jpg" alt="McDonalds Photo" width="220px" />
+          <mj-text
+            font-size="16px"
+            padding-top="15px"
+            padding-left="20px"
+            padding-bottom="10px"
+          >
+            McDonald's&reg;
+          </mj-text>
+          <mj-text
+            font-size="14px"
+            color="#d3d3d3"
+            padding-bottom="15px"
+            padding-left="20px"
+          >
+            $ &bull; American &bull; Fast Food
+          </mj-text>
+          <mj-button
+            background-color="#02c167"
+            font-size="14px"
+            font-weight="light"
+            color="#000000"
+            width="100%"
+            href="#"
+          >
+            Order Now &rarr;
+          </mj-button>
+        </mj-column>
+      </mj-group>
     </mj-section>
 
-    <mj-section
-      background-color="#f6f0ea"
-      padding-left="80px"
-      padding-right="80px"
-    >
-      <mj-column background-color="#ffffff">
-        <mj-image
-          src="images/chi.jpg"
-          alt="Golden Dragon No. 2 Photo"
-          width="225px"
-        />
-        <mj-raw>
-          <div
-            style="
-              position: relative;
-              top: 40px;
-              left: 170px;
-              width: 30px;
-              border-radius: 50%;
-              background-color: #d3d3d3;
-              color: #000000;
-              text-align: center;
-              line-height: 30px;
-              font-size: 12px;
-            "
+    <mj-section background-color="#f6f0ea" padding-bottom="80px">
+      <mj-group background-color="#ffffff" width="450px">
+        <mj-column width="50%" border="5px solid #f6f0ea">
+          <mj-image
+            src="images/chi.jpg"
+            alt="Golden Dragon No. 2 Photo"
+            width="220px"
+          />
+          <mj-text
+            font-size="16px"
+            padding-top="15px"
+            padding-left="20px"
+            padding-bottom="10px"
           >
-            4.6
-          </div>
-        </mj-raw>
-        <mj-text
-          padding-top="15px"
-          padding-left="20px"
-          font-size="16px"
-          padding-bottom="10px"
-          >Golden Dragon No. 2</mj-text
-        >
-        <mj-text
-          font-size="14px"
-          color="#d3d3d3"
-          padding-bottom="15px"
-          padding-left="20px"
-        >
-          $ &bull; Chinese &bull; Asian Fusion
-        </mj-text>
-        <mj-button
-          background-color="#02c167"
-          font-size="14px"
-          font-weight="light"
-          color="#000000"
-          width="100%"
-          href="#"
-        >
-          Order Now &rarr;
-        </mj-button>
-      </mj-column>
-      <mj-column background-color="#ffffff">
-        <mj-image src="images/mc.jpg" alt="McDonalds Photo" width="225px" />
-        <mj-raw>
-          <div
-            style="
-              position: relative;
-              top: 40px;
-              left: 170px;
-              width: 30px;
-              border-radius: 50%;
-              background-color: #d3d3d3;
-              color: #000000;
-              text-align: center;
-              line-height: 30px;
-              font-size: 12px;
-              padding: 0px;
-              margin: 0px;
-            "
+            Golden Dragon No. 2
+          </mj-text>
+          <mj-text
+            font-size="14px"
+            color="#d3d3d3"
+            padding-bottom="15px"
+            padding-left="20px"
           >
-            4.4
-          </div>
-        </mj-raw>
-        <mj-text
-          padding-top="15px"
-          padding-left="20px"
-          font-size="16px"
-          padding-bottom="10px"
-          >McDonald's&reg;
-        </mj-text>
-        <mj-text
-          font-size="14px"
-          color="#d3d3d3"
-          padding-bottom="15px"
-          padding-left="20px"
-        >
-          $ &bull; American &bull; Fast Food
-        </mj-text>
-        <mj-button
-          background-color="#02c167"
-          font-size="14px"
-          font-weight="light"
-          color="#000000"
-          width="100%"
-          href="#"
-        >
-          Order Now &rarr;
-        </mj-button>
-      </mj-column>
+            $ &bull; Chinese &bull; Asian Fusion
+          </mj-text>
+          <mj-button
+            background-color="#02c167"
+            font-size="14px"
+            font-weight="light"
+            color="#000000"
+            width="100%"
+            href="#"
+          >
+            Order Now &rarr;
+          </mj-button>
+        </mj-column>
+
+        <mj-column width="50%" border="5px solid #f6f0ea">
+          <mj-image src="images/mc.jpg" alt="McDonalds Photo" width="220px" />
+          <mj-text
+            font-size="16px"
+            padding-top="15px"
+            padding-left="20px"
+            padding-bottom="10px"
+          >
+            McDonald's&reg;
+          </mj-text>
+          <mj-text
+            font-size="14px"
+            color="#d3d3d3"
+            padding-bottom="15px"
+            padding-left="20px"
+          >
+            $ &bull; American &bull; Fast Food
+          </mj-text>
+          <mj-button
+            background-color="#02c167"
+            font-size="14px"
+            font-weight="light"
+            color="#000000"
+            width="100%"
+            href="#"
+          >
+            Order Now &rarr;
+          </mj-button>
+        </mj-column>
+      </mj-group>
     </mj-section>
 
     <!-- Graphic Banner -->
