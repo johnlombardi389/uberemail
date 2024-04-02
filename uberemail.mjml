@@ -20,7 +20,7 @@
     <mj-section>
       <mj-column>
         <mj-image
-          src="uberimg/logo.png"
+          src="images/logo.png"
           alt="Uber name"
           href="#"
           width="75px"
@@ -35,7 +35,7 @@
     <!-- Banner 1 -->
     <mj-section>
       <mj-column>
-        <mj-image src="uberimg/drinkbanner.jpg" alt="Food and drinks banner" />
+        <mj-image src="images/drinkbanner.jpg" alt="Food and drinks banner" />
       </mj-column>
     </mj-section>
 
@@ -79,7 +79,7 @@
     <!-- Second Banner -->
     <mj-section>
       <mj-column>
-        <mj-image src="uberimg/friedbanner.jpg" alt="Fried Food Banner" />
+        <mj-image src="images/friedbanner.jpg" alt="Fried Food Banner" />
       </mj-column>
     </mj-section>
 
@@ -105,7 +105,7 @@
     >
       <mj-column width="200px" padding-right="20px">
         <mj-image
-          src="uberimg/chi.jpg"
+          src="images/chi.jpg"
           alt="Golden Dragon No. 2 Photo"
           width="200px"
         />
@@ -154,7 +154,7 @@
         </mj-button>
       </mj-column>
       <mj-column background-color="#ffffff" width="200px">
-        <mj-image src="uberimg/mc.jpg" alt="McDonalds Photo" width="200px" />
+        <mj-image src="images/mc.jpg" alt="McDonalds Photo" width="200px" />
         <!-- <mj-raw>
           <div
             style="
@@ -210,7 +210,7 @@
     >
       <mj-column background-color="#ffffff">
         <mj-image
-          src="uberimg/chi.jpg"
+          src="images/chi.jpg"
           alt="Golden Dragon No. 2 Photo"
           width="225px"
         />
@@ -259,7 +259,7 @@
         </mj-button>
       </mj-column>
       <mj-column background-color="#ffffff">
-        <mj-image src="uberimg/mc.jpg" alt="McDonalds Photo" width="225px" />
+        <mj-image src="images/mc.jpg" alt="McDonalds Photo" width="225px" />
         <mj-raw>
           <div
             style="
@@ -311,7 +311,7 @@
     <!-- Graphic Banner -->
     <mj-section>
       <mj-column>
-        <mj-image src="uberimg/milk.png" alt="Delivery Graphics Banner" />
+        <mj-image src="images/milk.png" alt="Delivery Graphics Banner" />
       </mj-column>
     </mj-section>
 
