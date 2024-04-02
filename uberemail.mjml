@@ -170,8 +170,8 @@
       <mj-group background-color="#ffffff" width="450px">
         <mj-column width="50%" border="5px solid #f6f0ea">
           <mj-image
-            src="images/chi.jpg"
-            alt="Golden Dragon No. 2 Photo"
+            src="images/steak.jpg"
+            alt="Strom Tavern Photo"
             width="220px"
           />
           <mj-text
@@ -180,7 +180,7 @@
             padding-left="20px"
             padding-bottom="10px"
           >
-            Golden Dragon No. 2
+            Strom Tavern
           </mj-text>
           <mj-text
             font-size="14px"
@@ -188,7 +188,7 @@
             padding-bottom="15px"
             padding-left="20px"
           >
-            $ &bull; Chinese &bull; Asian Fusion
+            $ &bull; German &bull; Steakhouse
           </mj-text>
           <mj-button
             background-color="#02c167"
@@ -203,14 +203,18 @@
         </mj-column>
 
         <mj-column width="50%" border="5px solid #f6f0ea">
-          <mj-image src="images/mc.jpg" alt="McDonalds Photo" width="220px" />
+          <mj-image
+            src="images/veggie.jpg"
+            alt="Garden Rooftop Photo"
+            width="220px"
+          />
           <mj-text
             font-size="16px"
             padding-top="15px"
             padding-left="20px"
             padding-bottom="10px"
           >
-            McDonald's&reg;
+            Garden Rooftop
           </mj-text>
           <mj-text
             font-size="14px"
@@ -218,7 +222,7 @@
             padding-bottom="15px"
             padding-left="20px"
           >
-            $ &bull; American &bull; Fast Food
+            $ &bull; Vegan &bull; Cafe
           </mj-text>
           <mj-button
             background-color="#02c167"
