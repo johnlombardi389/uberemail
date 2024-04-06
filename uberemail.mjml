@@ -13,6 +13,10 @@
         padding="0px"
       />
     </mj-attributes>
+    <mj-style>
+      @media only screen and (min-width: 480px) { .privacy-footer { padding-top:
+      35px; } }
+    </mj-style>
   </mj-head>
 
   <mj-body background-color="#d3d3d3">
@@ -107,18 +111,18 @@
             width="220px"
           />
           <mj-text
-            font-size="16px"
             padding-top="15px"
-            padding-left="20px"
+            padding-left="10px"
             padding-bottom="10px"
+            css-class="t-small-text"
           >
             Golden Dragon No. 2
           </mj-text>
           <mj-text
-            font-size="14px"
             color="#d3d3d3"
             padding-bottom="15px"
-            padding-left="20px"
+            padding-left="10px"
+            css-class="p-small-text"
           >
             $ &bull; Chinese &bull; Asian Fusion
           </mj-text>
@@ -137,18 +141,18 @@
         <mj-column width="50%" border="5px solid #f6f0ea">
           <mj-image src="images/mc.jpg" alt="McDonalds Photo" width="220px" />
           <mj-text
-            font-size="16px"
             padding-top="15px"
-            padding-left="20px"
+            padding-left="10px"
             padding-bottom="10px"
+            css-class="t-small-text"
           >
             McDonald's&reg;
           </mj-text>
           <mj-text
-            font-size="14px"
             color="#d3d3d3"
             padding-bottom="15px"
-            padding-left="20px"
+            padding-left="10px"
+            css-class="p-small-text"
           >
             $ &bull; American &bull; Fast Food
           </mj-text>
@@ -175,20 +179,20 @@
             width="220px"
           />
           <mj-text
-            font-size="16px"
             padding-top="15px"
-            padding-left="20px"
+            padding-left="10px"
             padding-bottom="10px"
+            css-class="t-small-text"
           >
             Strom Tavern
           </mj-text>
           <mj-text
-            font-size="14px"
             color="#d3d3d3"
             padding-bottom="15px"
-            padding-left="20px"
+            padding-left="10px"
+            css-class="p-small-text"
           >
-            $ &bull; German &bull; Steakhouse
+            $ &bull; German &bull; Steak
           </mj-text>
           <mj-button
             background-color="#02c167"
@@ -209,18 +213,18 @@
             width="220px"
           />
           <mj-text
-            font-size="16px"
             padding-top="15px"
-            padding-left="20px"
+            padding-left="10px"
             padding-bottom="10px"
+            css-class="t-small-text"
           >
             Garden Rooftop
           </mj-text>
           <mj-text
-            font-size="14px"
             color="#d3d3d3"
             padding-bottom="15px"
-            padding-left="20px"
+            padding-left="10px"
+            css-class="p-small-text"
           >
             $ &bull; Vegan &bull; Cafe
           </mj-text>
@@ -292,7 +296,7 @@
           ></mj-text
         >
       </mj-column>
-      <mj-column padding-top="35px" padding-left="0px">
+      <mj-column padding-left="80px" css-class="privacy-footer">
         <mj-text padding-bottom="10px" font-size="14px">
           <a href="#" style="color: #ffffff; text-decoration: none"
             >Privacy</a
@@ -308,7 +312,7 @@
           ></mj-text
         >
       </mj-column>
-      <mj-column padding-top="0px" padding-left="0px">
+      <mj-column padding-top="0px" padding-left="80px">
         <mj-text padding-bottom="10px" font-size="14px">
           <a href="#" style="color: #ffffff; text-decoration: none"
             >Community</a
@@ -324,7 +328,7 @@
           ></mj-text
         >
       </mj-column>
-      <mj-column padding-top="0px" padding-left="0px">
+      <mj-column padding-top="0px" padding-left="80px">
         <mj-text padding-bottom="10px" font-size="14px">
           <a href="#" style="color: #ffffff; text-decoration: none"
             >Email Preferences</a
@@ -347,7 +351,7 @@
           ></mj-text
         >
       </mj-column>
-      <mj-column padding-top="30px">
+      <mj-column padding-top="30px" padding-left="40px">
         <mj-social mode="horizontal" align="left" icon-size="30px">
           <mj-social-element
             name="facebook"
