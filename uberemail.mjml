@@ -46,14 +46,14 @@
     <!-- Redeem Code -->
     <mj-section background-color="#fbe5b6">
       <mj-column padding-top="40px" padding-left="80px" padding-right="80px">
-        <mj-text font-size="50px">
+        <mj-text font-size="30px">
           Save up to $15 on your next indulgence.
         </mj-text>
-        <mj-text font-size="20px" padding-top="20px" padding-bottom="20px">
+        <mj-text padding-top="20px" padding-bottom="20px" font-size="18px">
           Go ahead, order that meal you've been craving. We've got dinner
           covered.
         </mj-text>
-        <mj-text font-size="20px" padding-bottom="20px">
+        <mj-text padding-bottom="20px" font-size="18px">
           Eligible for first orders only. Add the promo code before you checkout
           to claim your meal on us:
         </mj-text>
